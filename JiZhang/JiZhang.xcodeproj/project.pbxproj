@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F666B381DAAA2BA000A342F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B371DAAA2BA000A342F /* main.m */; };
+		8F666B3B1DAAA2BA000A342F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B3A1DAAA2BA000A342F /* AppDelegate.m */; };
+		8F666B3E1DAAA2BA000A342F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B3D1DAAA2BA000A342F /* ViewController.m */; };
+		8F666B411DAAA2BA000A342F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B3F1DAAA2BA000A342F /* Main.storyboard */; };
+		8F666B441DAAA2BA000A342F /* JiZhang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B421DAAA2BA000A342F /* JiZhang.xcdatamodeld */; };
+		8F666B461DAAA2BA000A342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B451DAAA2BA000A342F /* Assets.xcassets */; };
+		8F666B491DAAA2BA000A342F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */; };
+		8F666B511DAAA3EC000A342F /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B501DAAA3EC000A342F /* jiahao.png */; };
+		8FD867891DAAA8C900605E56 /* topTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD867871DAAA8C900605E56 /* topTableViewCell.m */; };
+		8FD8678A1DAAA8C900605E56 /* topTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD867881DAAA8C900605E56 /* topTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F666B331DAAA2BA000A342F /* JiZhang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiZhang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F666B371DAAA2BA000A342F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F666B391DAAA2BA000A342F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F666B3A1DAAA2BA000A342F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F666B3C1DAAA2BA000A342F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F666B3D1DAAA2BA000A342F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F666B401DAAA2BA000A342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F666B431DAAA2BA000A342F /* JiZhang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiZhang.xcdatamodel; sourceTree = "<group>"; };
+		8F666B451DAAA2BA000A342F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F666B481DAAA2BA000A342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F666B4A1DAAA2BA000A342F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F666B501DAAA3EC000A342F /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
+		8FD867861DAAA8C900605E56 /* topTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topTableViewCell.h; sourceTree = "<group>"; };
+		8FD867871DAAA8C900605E56 /* topTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topTableViewCell.m; sourceTree = "<group>"; };
+		8FD867881DAAA8C900605E56 /* topTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F666B301DAAA2BA000A342F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F666B2A1DAAA2BA000A342F = {
+			isa = PBXGroup;
+			children = (
+				8F666B351DAAA2BA000A342F /* JiZhang */,
+				8F666B341DAAA2BA000A342F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F666B341DAAA2BA000A342F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F666B331DAAA2BA000A342F /* JiZhang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F666B351DAAA2BA000A342F /* JiZhang */ = {
+			isa = PBXGroup;
+			children = (
+				8FD867851DAAA8A100605E56 /* Views */,
+				8FD867841DAAA88300605E56 /* Controllers */,
+				8F666B451DAAA2BA000A342F /* Assets.xcassets */,
+				8F666B4A1DAAA2BA000A342F /* Info.plist */,
+				8F666B421DAAA2BA000A342F /* JiZhang.xcdatamodeld */,
+				8F666B361DAAA2BA000A342F /* Supporting Files */,
+			);
+			path = JiZhang;
+			sourceTree = "<group>";
+		};
+		8F666B361DAAA2BA000A342F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F666B501DAAA3EC000A342F /* jiahao.png */,
+				8F666B371DAAA2BA000A342F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD867841DAAA88300605E56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F666B3C1DAAA2BA000A342F /* ViewController.h */,
+				8F666B3D1DAAA2BA000A342F /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8FD867851DAAA8A100605E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F666B391DAAA2BA000A342F /* AppDelegate.h */,
+				8F666B3A1DAAA2BA000A342F /* AppDelegate.m */,
+				8F666B3F1DAAA2BA000A342F /* Main.storyboard */,
+				8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */,
+				8FD867861DAAA8C900605E56 /* topTableViewCell.h */,
+				8FD867871DAAA8C900605E56 /* topTableViewCell.m */,
+				8FD867881DAAA8C900605E56 /* topTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F666B321DAAA2BA000A342F /* JiZhang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F666B4D1DAAA2BA000A342F /* Build configuration list for PBXNativeTarget "JiZhang" */;
+			buildPhases = (
+				8F666B2F1DAAA2BA000A342F /* Sources */,
+				8F666B301DAAA2BA000A342F /* Frameworks */,
+				8F666B311DAAA2BA000A342F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiZhang;
+			productName = JiZhang;
+			productReference = 8F666B331DAAA2BA000A342F /* JiZhang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F666B2B1DAAA2BA000A342F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = pengkaifeng;
+				TargetAttributes = {
+					8F666B321DAAA2BA000A342F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CAB83Q94X3;
+					};
+				};
+			};
+			buildConfigurationList = 8F666B2E1DAAA2BA000A342F /* Build configuration list for PBXProject "JiZhang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F666B2A1DAAA2BA000A342F;
+			productRefGroup = 8F666B341DAAA2BA000A342F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F666B321DAAA2BA000A342F /* JiZhang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F666B311DAAA2BA000A342F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F666B491DAAA2BA000A342F /* LaunchScreen.storyboard in Resources */,
+				8FD8678A1DAAA8C900605E56 /* topTableViewCell.xib in Resources */,
+				8F666B511DAAA3EC000A342F /* jiahao.png in Resources */,
+				8F666B461DAAA2BA000A342F /* Assets.xcassets in Resources */,
+				8F666B411DAAA2BA000A342F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F666B2F1DAAA2BA000A342F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD867891DAAA8C900605E56 /* topTableViewCell.m in Sources */,
+				8F666B3E1DAAA2BA000A342F /* ViewController.m in Sources */,
+				8F666B3B1DAAA2BA000A342F /* AppDelegate.m in Sources */,
+				8F666B381DAAA2BA000A342F /* main.m in Sources */,
+				8F666B441DAAA2BA000A342F /* JiZhang.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F666B3F1DAAA2BA000A342F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F666B401DAAA2BA000A342F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F666B481DAAA2BA000A342F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F666B4B1DAAA2BA000A342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F666B4C1DAAA2BA000A342F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F666B4E1DAAA2BA000A342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiZhang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaifeng.JiZhang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F666B4F1DAAA2BA000A342F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiZhang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaifeng.JiZhang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F666B2E1DAAA2BA000A342F /* Build configuration list for PBXProject "JiZhang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F666B4B1DAAA2BA000A342F /* Debug */,
+				8F666B4C1DAAA2BA000A342F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F666B4D1DAAA2BA000A342F /* Build configuration list for PBXNativeTarget "JiZhang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F666B4E1DAAA2BA000A342F /* Debug */,
+				8F666B4F1DAAA2BA000A342F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F666B421DAAA2BA000A342F /* JiZhang.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F666B431DAAA2BA000A342F /* JiZhang.xcdatamodel */,
+			);
+			currentVersion = 8F666B431DAAA2BA000A342F /* JiZhang.xcdatamodel */;
+			path = JiZhang.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F666B2B1DAAA2BA000A342F /* Project object */;
+}
