@@ -17,6 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"everLaunched"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"everLaunched"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"firstLaunch"];
+    }
+
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"everLaunched2"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"everLaunched2"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch2"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"firstLaunch2"];
+    }
+
     return YES;
 }
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +17,36 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bj.png" translatesAutoresizingMaskIntoConstraints="NO" id="GPW-MW-bwB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lanch.png" translatesAutoresizingMaskIntoConstraints="NO" id="d6t-qf-Ae4">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d6t-qf-Ae4" secondAttribute="height" multiplier="4:3" id="SCs-Nj-LUi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d6t-qf-Ae4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="9A6-Kk-wMX"/>
+                            <constraint firstItem="GPW-MW-bwB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="9cj-20-PMM"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="GPW-MW-bwB" secondAttribute="bottom" id="Lrz-NQ-O1c"/>
+                            <constraint firstItem="d6t-qf-Ae4" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="NXF-Bx-MZ1"/>
+                            <constraint firstItem="d6t-qf-Ae4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eEv-eg-Dqk"/>
+                            <constraint firstItem="d6t-qf-Ae4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="eHD-jK-Irk"/>
+                            <constraint firstAttribute="trailing" secondItem="GPW-MW-bwB" secondAttribute="trailing" id="fOP-3H-ZNA"/>
+                            <constraint firstItem="GPW-MW-bwB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="o8G-aq-CMp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="556.875" y="-5.28169014084507"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bj.png" width="375" height="667"/>
+        <image name="lanch.png" width="500" height="300"/>
+    </resources>
 </document>

@@ -7,34 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2CE9F41DB66F76007E2EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2CE9F31DB66F76007E2EF6 /* Main.storyboard */; };
+		8F32F4121DB7BA1800291AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F32F4111DB7BA1800291AF0 /* Assets.xcassets */; };
 		8F666B381DAAA2BA000A342F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B371DAAA2BA000A342F /* main.m */; };
 		8F666B3B1DAAA2BA000A342F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B3A1DAAA2BA000A342F /* AppDelegate.m */; };
 		8F666B3E1DAAA2BA000A342F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B3D1DAAA2BA000A342F /* ViewController.m */; };
-		8F666B411DAAA2BA000A342F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B3F1DAAA2BA000A342F /* Main.storyboard */; };
 		8F666B441DAAA2BA000A342F /* JiZhang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F666B421DAAA2BA000A342F /* JiZhang.xcdatamodeld */; };
-		8F666B461DAAA2BA000A342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B451DAAA2BA000A342F /* Assets.xcassets */; };
-		8F666B491DAAA2BA000A342F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */; };
-		8F666B511DAAA3EC000A342F /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F666B501DAAA3EC000A342F /* jiahao.png */; };
+		8F92D6001DABEFC6003B4A4C /* bj.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F92D5FF1DABEFC6003B4A4C /* bj.png */; };
+		8F945A0C1DB7A74000483B6F /* projectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F945A0A1DB7A74000483B6F /* projectViewController.m */; };
+		8F945A0D1DB7A74000483B6F /* projectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F945A0B1DB7A74000483B6F /* projectViewController.xib */; };
+		8FADA6321DB7B5E600AB4899 /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FADA6311DB7B5E600AB4899 /* jiahao.png */; };
+		8FBEBDE51DB7C054004BF64F /* lanch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBEBDE41DB7C054004BF64F /* lanch.png */; };
 		8FD867891DAAA8C900605E56 /* topTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD867871DAAA8C900605E56 /* topTableViewCell.m */; };
 		8FD8678A1DAAA8C900605E56 /* topTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD867881DAAA8C900605E56 /* topTableViewCell.xib */; };
+		8FEC41391DAD480C00CDEEBF /* sz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC41381DAD480C00CDEEBF /* sz.png */; };
+		8FEC413B1DAD48AD00CDEEBF /* bp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC413A1DAD48AD00CDEEBF /* bp.png */; };
+		8FEC413F1DAD48C000CDEEBF /* zz1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC413C1DAD48C000CDEEBF /* zz1.png */; };
+		8FEC41401DAD48C000CDEEBF /* zz2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC413D1DAD48C000CDEEBF /* zz2.png */; };
+		8FEC41411DAD48C000CDEEBF /* zz3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC413E1DAD48C000CDEEBF /* zz3.png */; };
+		8FFCC1241DB868FC00F1454A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFCC1221DB868FC00F1454A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F666B331DAAA2BA000A342F /* JiZhang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiZhang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2CE9F31DB66F76007E2EF6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F32F4111DB7BA1800291AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F666B331DAAA2BA000A342F /* 记账管家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记账管家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F666B371DAAA2BA000A342F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F666B391DAAA2BA000A342F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F666B3A1DAAA2BA000A342F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8F666B3C1DAAA2BA000A342F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8F666B3D1DAAA2BA000A342F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F666B401DAAA2BA000A342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F666B431DAAA2BA000A342F /* JiZhang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiZhang.xcdatamodel; sourceTree = "<group>"; };
-		8F666B451DAAA2BA000A342F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F666B481DAAA2BA000A342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F666B4A1DAAA2BA000A342F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F666B501DAAA3EC000A342F /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
+		8F92D5FF1DABEFC6003B4A4C /* bj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bj.png; sourceTree = "<group>"; };
+		8F945A091DB7A74000483B6F /* projectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = projectViewController.h; sourceTree = "<group>"; };
+		8F945A0A1DB7A74000483B6F /* projectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = projectViewController.m; sourceTree = "<group>"; };
+		8F945A0B1DB7A74000483B6F /* projectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = projectViewController.xib; sourceTree = "<group>"; };
+		8FADA6311DB7B5E600AB4899 /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
+		8FBEBDE41DB7C054004BF64F /* lanch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanch.png; sourceTree = "<group>"; };
 		8FD867861DAAA8C900605E56 /* topTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topTableViewCell.h; sourceTree = "<group>"; };
 		8FD867871DAAA8C900605E56 /* topTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topTableViewCell.m; sourceTree = "<group>"; };
 		8FD867881DAAA8C900605E56 /* topTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topTableViewCell.xib; sourceTree = "<group>"; };
+		8FEC41381DAD480C00CDEEBF /* sz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sz.png; sourceTree = "<group>"; };
+		8FEC413A1DAD48AD00CDEEBF /* bp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bp.png; sourceTree = "<group>"; };
+		8FEC413C1DAD48C000CDEEBF /* zz1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zz1.png; sourceTree = "<group>"; };
+		8FEC413D1DAD48C000CDEEBF /* zz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zz2.png; sourceTree = "<group>"; };
+		8FEC413E1DAD48C000CDEEBF /* zz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zz3.png; sourceTree = "<group>"; };
+		8FFCC1231DB868FC00F1454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +78,7 @@
 		8F666B341DAAA2BA000A342F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F666B331DAAA2BA000A342F /* JiZhang.app */,
+				8F666B331DAAA2BA000A342F /* 记账管家.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,7 +88,6 @@
 			children = (
 				8FD867851DAAA8A100605E56 /* Views */,
 				8FD867841DAAA88300605E56 /* Controllers */,
-				8F666B451DAAA2BA000A342F /* Assets.xcassets */,
 				8F666B4A1DAAA2BA000A342F /* Info.plist */,
 				8F666B421DAAA2BA000A342F /* JiZhang.xcdatamodeld */,
 				8F666B361DAAA2BA000A342F /* Supporting Files */,
@@ -80,7 +98,15 @@
 		8F666B361DAAA2BA000A342F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F666B501DAAA3EC000A342F /* jiahao.png */,
+				8F32F4111DB7BA1800291AF0 /* Assets.xcassets */,
+				8FBEBDE41DB7C054004BF64F /* lanch.png */,
+				8FADA6311DB7B5E600AB4899 /* jiahao.png */,
+				8FEC413C1DAD48C000CDEEBF /* zz1.png */,
+				8FEC413D1DAD48C000CDEEBF /* zz2.png */,
+				8FEC413E1DAD48C000CDEEBF /* zz3.png */,
+				8FEC413A1DAD48AD00CDEEBF /* bp.png */,
+				8FEC41381DAD480C00CDEEBF /* sz.png */,
+				8F92D5FF1DABEFC6003B4A4C /* bj.png */,
 				8F666B371DAAA2BA000A342F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -91,6 +117,9 @@
 			children = (
 				8F666B3C1DAAA2BA000A342F /* ViewController.h */,
 				8F666B3D1DAAA2BA000A342F /* ViewController.m */,
+				8F945A091DB7A74000483B6F /* projectViewController.h */,
+				8F945A0A1DB7A74000483B6F /* projectViewController.m */,
+				8F945A0B1DB7A74000483B6F /* projectViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -98,10 +127,10 @@
 		8FD867851DAAA8A100605E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FFCC1221DB868FC00F1454A /* LaunchScreen.storyboard */,
 				8F666B391DAAA2BA000A342F /* AppDelegate.h */,
 				8F666B3A1DAAA2BA000A342F /* AppDelegate.m */,
-				8F666B3F1DAAA2BA000A342F /* Main.storyboard */,
-				8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */,
+				8F2CE9F31DB66F76007E2EF6 /* Main.storyboard */,
 				8FD867861DAAA8C900605E56 /* topTableViewCell.h */,
 				8FD867871DAAA8C900605E56 /* topTableViewCell.m */,
 				8FD867881DAAA8C900605E56 /* topTableViewCell.xib */,
@@ -126,7 +155,7 @@
 			);
 			name = JiZhang;
 			productName = JiZhang;
-			productReference = 8F666B331DAAA2BA000A342F /* JiZhang.app */;
+			productReference = 8F666B331DAAA2BA000A342F /* 记账管家.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +164,7 @@
 		8F666B2B1DAAA2BA000A342F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = pengkaifeng;
 				TargetAttributes = {
 					8F666B321DAAA2BA000A342F = {
@@ -167,11 +196,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F666B491DAAA2BA000A342F /* LaunchScreen.storyboard in Resources */,
+				8FEC413F1DAD48C000CDEEBF /* zz1.png in Resources */,
+				8FADA6321DB7B5E600AB4899 /* jiahao.png in Resources */,
+				8FEC41391DAD480C00CDEEBF /* sz.png in Resources */,
 				8FD8678A1DAAA8C900605E56 /* topTableViewCell.xib in Resources */,
-				8F666B511DAAA3EC000A342F /* jiahao.png in Resources */,
-				8F666B461DAAA2BA000A342F /* Assets.xcassets in Resources */,
-				8F666B411DAAA2BA000A342F /* Main.storyboard in Resources */,
+				8F945A0D1DB7A74000483B6F /* projectViewController.xib in Resources */,
+				8FEC41411DAD48C000CDEEBF /* zz3.png in Resources */,
+				8F2CE9F41DB66F76007E2EF6 /* Main.storyboard in Resources */,
+				8FFCC1241DB868FC00F1454A /* LaunchScreen.storyboard in Resources */,
+				8FBEBDE51DB7C054004BF64F /* lanch.png in Resources */,
+				8FEC41401DAD48C000CDEEBF /* zz2.png in Resources */,
+				8FEC413B1DAD48AD00CDEEBF /* bp.png in Resources */,
+				8F32F4121DB7BA1800291AF0 /* Assets.xcassets in Resources */,
+				8F92D6001DABEFC6003B4A4C /* bj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +221,7 @@
 			files = (
 				8FD867891DAAA8C900605E56 /* topTableViewCell.m in Sources */,
 				8F666B3E1DAAA2BA000A342F /* ViewController.m in Sources */,
+				8F945A0C1DB7A74000483B6F /* projectViewController.m in Sources */,
 				8F666B3B1DAAA2BA000A342F /* AppDelegate.m in Sources */,
 				8F666B381DAAA2BA000A342F /* main.m in Sources */,
 				8F666B441DAAA2BA000A342F /* JiZhang.xcdatamodeld in Sources */,
@@ -193,18 +231,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F666B3F1DAAA2BA000A342F /* Main.storyboard */ = {
+		8FFCC1221DB868FC00F1454A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8F666B401DAAA2BA000A342F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F666B471DAAA2BA000A342F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F666B481DAAA2BA000A342F /* Base */,
+				8FFCC1231DB868FC00F1454A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -226,8 +256,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -249,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -270,8 +302,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -287,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -298,10 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JiZhang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaifeng.JiZhang;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "记账管家";
+				PROVISIONING_PROFILE = "e619705c-6f7d-4f56-925e-7aaaea6b1786";
 			};
 			name = Debug;
 		};
@@ -309,10 +345,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JiZhang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaifeng.JiZhang;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "记账管家";
+				PROVISIONING_PROFILE = "e619705c-6f7d-4f56-925e-7aaaea6b1786";
 			};
 			name = Release;
 		};

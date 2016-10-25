@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface topTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *shouruLabel;
+@property (strong, nonatomic) IBOutlet UILabel *zhichuLabel;
+@property (strong, nonatomic) IBOutlet UILabel *yueLabel;
 
 @end

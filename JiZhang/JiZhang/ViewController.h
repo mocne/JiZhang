@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UITableView *tableView;
+
+
+@property (nonatomic, strong) NSMutableArray *arr;
+@property (nonatomic) int num;
+@property (nonatomic) CGFloat shouru;
+@property (nonatomic) CGFloat zhichu;
+@property (nonatomic) CGFloat count;
 
 @end
 
